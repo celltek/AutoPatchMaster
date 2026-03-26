@@ -1,8 +1,8 @@
 {
   "name": "apm",
-  "version": "2.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "version": "2.5.0",
+  "description": "APM - AutoPatchMaster - Celltek Update Server Client",
+  "main": "index.js",
   "scripts": {
     "start": "node ."
   },
@@ -13,10 +13,10 @@
     "node": ">=16.9.0"
   },
   "dependencies": {
-    "discord.js-v14-helper": "^1.11.4",
-    "mongoose": "^6.10.4",
-    "node-fetch": "^2.6.11",
-    "shelljs": "^0.8.5",
+    "dotenv": "^16.4.7",
+    "punycode": "^2.3.1",
+    "shelljs": "^0.10.0",
+    "uri-js-replace": "^1.0.1",
     "ws": "^8.13.0"
   }
 }
